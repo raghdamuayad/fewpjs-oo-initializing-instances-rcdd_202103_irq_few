@@ -28,9 +28,14 @@ function  Breakfast(food, drink) {
 
 
 
+<<<<<<< HEAD
       function Dinner (salad,soup,entree,dessert) {
 
         this.salad = salad;
+=======
+      function Dinner (soup,entree,dessert) {
+
+>>>>>>> f52fc0614eb07d320f7d92ef9b983af9f793e8c2
         this.soup = soup;
         this.entree = entree;
         this._dessert = dessert;
@@ -38,5 +43,9 @@ function  Breakfast(food, drink) {
           console.log(`${this.soup},${this.entree},${this._dessert}`);
         };
       }
+<<<<<<< HEAD
     let newdinner = new Dinner('balsamic salad', 'consomme', 'filet mignon', 'cheesecake')
+=======
+    let newdinner = new Dinner('', 'consomme', 'filet mignon', 'cheesecake')
+>>>>>>> f52fc0614eb07d320f7d92ef9b983af9f793e8c2
         newdinner.Dinner();
